@@ -3,7 +3,7 @@ let addToDobutton = document.getElementById('addToDo')
 let inputField = document.getElementById('inputField')
 
 addToDobutton.addEventListener('click' , function() {
-    var paragraph = document.createElement('p');
+    let paragraph = document.createElement('p');
    paragraph.innerText = inputField.value;
    paragraph.classList.add('paragraph-styling')
     toDoContainer.appendChild(paragraph);
